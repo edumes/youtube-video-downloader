@@ -7,9 +7,9 @@ from pytube import YouTube
 from time import sleep, time
 
 def IGD():  #tela inicial
-    sg.theme('Black')
+    sg.theme('DarkBrown4')
     layout = [
-        [sg.Text('INTERNET GLOBAL DOWNLOADER', font='Courier 16')],
+        [sg.Text('Youtube Downloader', font='Courier 16')],
         [sg.InputText(text_color='orange')],
         [sg.Button('Download')]
     ]
